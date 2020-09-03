@@ -1,0 +1,25 @@
+{
+    "name": "harishariyanto/blog",
+    "description": "Menambahkan fitur blog",
+    "require": {
+        "harishariyanto/seo": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Haris Hariyanto",
+            "email": "harishariyanto299@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harishariyanto\\Blog\\BlogServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Harishariyanto\\Origin\\": "src"
+        }
+    }
+}
