@@ -23,7 +23,7 @@ class BlogServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesForm(__DIR__ . '/routes.php');
+        $this->loadRoutesFrom(__DIR__ . '/routes.php');
 
         $this->publishes([
             __DIR__ . '/../publishes/app'           => app_path(),
