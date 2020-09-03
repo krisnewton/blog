@@ -1,9 +1,7 @@
 {
     "name": "harishariyanto/blog",
     "description": "Menambahkan fitur blog",
-    "require": {
-        "harishariyanto/seo": "dev-master"
-    },
+
     "authors": [
         {
             "name": "Haris Hariyanto",
