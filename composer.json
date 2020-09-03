@@ -1,7 +1,9 @@
 {
     "name": "harishariyanto/blog",
     "description": "Menambahkan fitur blog",
-
+    "require": {
+        "harishariyanto/seo": "dev-master"
+    },
     "authors": [
         {
             "name": "Haris Hariyanto",
@@ -17,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Harishariyanto\\Origin\\": "src"
+            "Harishariyanto\\Blog\\": "src"
         }
     }
 }
