@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Apps;
 use App\Post;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Grafika\Grafika;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use App\Image;
